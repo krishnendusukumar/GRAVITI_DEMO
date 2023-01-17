@@ -1,9 +1,12 @@
-import './App.css';
-import Map from './Map';
+/*google google*/
+
+import "./App.css";
+import Description from "./components/Description";
+
 function App() {
   return (
-    <div className="App">
-      <Map />
+    <div className="App row">
+      <Description />
     </div>
   );
 }
