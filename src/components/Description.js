@@ -9,7 +9,7 @@ import Map from "./Map";
 function Description() {
     const { isLoaded } = useJsApiLoader({
         id: "google-map-script",
-        googleMapsApiKey: "AIzaSyCJMLOaYcxqrwd4JZ0hWNYXjYpqbX-J-k8",
+        googleMapsApiKey: "API_KEY",
         libraries: ["places"],
     });
 
